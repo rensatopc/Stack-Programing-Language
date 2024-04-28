@@ -13,7 +13,7 @@ use std::thread::{self, sleep};
 use std::time::{Duration, SystemTime, UNIX_EPOCH};
 use sys_info::{cpu_num, cpu_speed, hostname, mem_info, os_release, os_type};
 
-pub fn execute_command(&mut executor: &Executor, command: String) {
+pub fn execute_command(executor: &mut Executor, command: String) {
     match command.as_str() {
         // Commands of calculation
 

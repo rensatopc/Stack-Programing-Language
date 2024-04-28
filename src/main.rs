@@ -1,6 +1,6 @@
 use clap::{App, Arg};
 use std::collections::HashMap;
-use std::fs::{File};
+use std::fs::File;
 use std::io::{self, Error, Read, Write};
 use std::path::Path;
 mod functions;
